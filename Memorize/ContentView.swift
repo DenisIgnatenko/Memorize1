@@ -23,7 +23,7 @@ struct ContentView: View {
 }
 
 struct CardView: View {
-    var isFaceUp: Bool = false
+   @State var isFaceUp = false
     
     var body: some View {
         ZStack(content: {
