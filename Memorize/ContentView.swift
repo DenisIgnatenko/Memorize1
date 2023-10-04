@@ -19,14 +19,11 @@ struct ContentView: View {
         
         .foregroundColor(.orange)
         .padding()
-        
-        
-        
     }
 }
 
 struct CardView: View {
-    var isFaceUp: Bool = false
+    var isFaceUp: Bool = true
     
     var body: some View {
         ZStack(content: {
