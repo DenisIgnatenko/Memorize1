@@ -18,6 +18,7 @@ struct ContentView: View {
         VStack {
             ScrollView {
                 cards
+                cards
             }
             Spacer()
             cardCountAdjusters
