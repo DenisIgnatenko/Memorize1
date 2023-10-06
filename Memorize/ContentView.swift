@@ -61,6 +61,7 @@ struct ContentView: View {
     
     var cardAdder: some View {
        cardCountAdjuster(by: +1, symbol: "rectangle.stack.badge.plus.fill")
+            
     }
 }
 
